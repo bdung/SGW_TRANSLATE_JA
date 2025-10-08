@@ -24,7 +24,7 @@ import os
 # Load model (nên chọn small/medium để deploy online nhanh hơn)
 @st.cache_resource
 def load_model():
-    return whisper.load_model("small")
+    return whisper.load_model("base")
 
 model = load_model()
 
