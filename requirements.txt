@@ -1,6 +1,6 @@
 streamlit
 openai-whisper
+torch==2.2.0+cpu
+torchaudio==2.2.0+cpu
 python-docx
-torch
-torchaudio
 soundfile
